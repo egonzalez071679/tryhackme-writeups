@@ -38,5 +38,5 @@ to IR/DFIR Analyst.
 - Current Streak: Day 1
 
 ## Connect
-- LinkedIn: linkedin.com/in/yourusername
+- LinkedIn: www.linkedin.com/in/esteban-gonzalez-3400ab233
 - TryHackMe: tryhackme.com/p/yourusername
