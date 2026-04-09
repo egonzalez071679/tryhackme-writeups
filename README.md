@@ -1,4 +1,4 @@
-# TryHackMe Pre Security Writeups
+# TryHackMe Writeups
 
 Documenting my TryHackMe journey as part of my 
 cybersecurity career transition from Project Management 
@@ -9,7 +9,7 @@ to IR/DFIR Analyst.
 - Target Role: IR/DFIR Analyst
 - Current Focus: Building hands-on security skills
 
-# TryHackMe Pre Security Learning Path Progress
+# TryHackMe Progress
 
 > Documenting my cybersecurity learning journey on TryHackMe.
 
@@ -29,9 +29,6 @@ to IR/DFIR Analyst.
 - **Defensive**: SOC operations, DFIR, incident response, malware basics
 - **Offensive**: Web app hacking, recon, ethical hacking mindset
 - **Career**: Awareness of roles, specializations, and certifications
-
-<img width="746" height="673" alt="image" src="https://github.com/user-attachments/assets/532bf021-5683-471b-9faf-6a204990f79d" />
-
 
 ## Tools Used So Far
 - `gobuster` — directory/file enumeration
