@@ -1,4 +1,4 @@
-# TryHackMe Writeups
+# TryHackMe Pre Security Writeups
 
 Documenting my TryHackMe journey as part of my 
 cybersecurity career transition from Project Management 
@@ -9,34 +9,40 @@ to IR/DFIR Analyst.
 - Target Role: IR/DFIR Analyst
 - Current Focus: Building hands-on security skills
 
-## Learning Paths
+# TryHackMe Pre Security Learning Path Progress
 
-### Pre-Security Path
-| Room | Difficulty | Status | Writeup |
-|------|-----------|--------|---------|
-| Linux Fundamentals 1 | Easy | 🔄 In Progress | Coming soon |
-| Linux Fundamentals 2 | Easy | ⏳ Planned | Coming soon |
-| Network Fundamentals | Easy | ⏳ Planned | Coming soon |
+> Documenting my cybersecurity learning journey on TryHackMe.
 
-### SOC Level 1 Path
-| Room | Difficulty | Status | Writeup |
-|------|-----------|--------|---------|
-| Cyber Defense Frameworks | Easy | ⏳ Planned | Coming soon |
-| Phishing Analysis | Easy | ⏳ Planned | Coming soon |
-| SIEM Fundamentals | Medium | ⏳ Planned | Coming soon |
+## Completed Rooms
 
-### IR & Forensics
-| Room | Difficulty | Status | Writeup |
-|------|-----------|--------|---------|
-| Autopsy | Medium | ⏳ Planned | Coming soon |
-| Volatility | Medium | ⏳ Planned | Coming soon |
-| Incident Response | Medium | ⏳ Planned | Coming soon |
+| Room | Category | Key Skills |
+|------|----------|------------|
+| [Defensive Security Intro](https://tryhackme.com/room/defensivesecurity) | 🛡 Blue Team | SOC, DFIR, Threat Intel, Malware Analysis |
+| [Careers in Cyber](https://tryhackme.com/room/careersincyber) | 💼 Career | Roles, Certs, Career Paths |
+| [What is Networking?](https://tryhackme.com/room/whatisnetworking) | 🌐 Networking | IP/MAC, Ping, Data Flow |
+| [Offensive Security Intro](https://tryhackme.com/room/offensivesecurity) | ⚔ Red Team | Ethical Hacking, gobuster, Recon |
+| [DNS in Detail](https://tryhackme.com/room/dnsindetail) | 🔍 Networking | DNS Records, Resolution, TTL, Spoofing |
 
-## Progress
-- Rooms Completed: 0
-- Writeups Published: 0
-- Current Streak: Day 1
+
+## Skills Gained
+- **Networking**: IP/MAC addressing, DNS, data flow
+- **Defensive**: SOC operations, DFIR, incident response, malware basics
+- **Offensive**: Web app hacking, recon, ethical hacking mindset
+- **Career**: Awareness of roles, specializations, and certifications
+
+<img width="746" height="673" alt="image" src="https://github.com/user-attachments/assets/532bf021-5683-471b-9faf-6a204990f79d" />
+
+
+## Tools Used So Far
+- `gobuster` — directory/file enumeration
+- `ping` — connectivity testing
+
+## Badges
+
+<img width="560" height="270" alt="image" src="https://github.com/user-attachments/assets/49da4fd3-696a-4d96-b089-8a21b0e10b64" />
+
+https://tryhackme.com/egonzalez.1679/badges/3-day-streak?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6993b4d3cde61967de3608a2
 
 ## Connect
 - LinkedIn: www.linkedin.com/in/esteban-gonzalez-3400ab233
-- TryHackMe: tryhackme.com/p/yourusername
+- TryHackMe: [tryhackme.com/p/yourusername](https://tryhackme.com/p/egonzalez.1679)
