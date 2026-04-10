@@ -1,4 +1,4 @@
-# TryHackMe — Pre-Security Path
+ Pre-Security Path
 
 > Documenting my hands-on learning through the TryHackMe Pre-Security path as part of my career transition from **Project Management** to **IR/DFIR Analyst**.
 
