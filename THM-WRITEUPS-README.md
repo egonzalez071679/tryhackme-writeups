@@ -2,7 +2,6 @@
 
 > Documenting my hands-on learning through TryHackMe as part of my career transition from **Project Management** to **IR/DFIR Analyst**.
 
-[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/egonzalez.1679.png)](https://tryhackme.com/p/egonzalez.1679)
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Pre--Security%20%7C%20SOC%20Level%201-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
@@ -38,7 +37,7 @@ TryHackMe is the **primary learning platform** for Phase 1 and Phase 2 of my roa
 ## Path Progress
 
 ```
-Pre-Security:       ████████░░░░░░░░░░░░░░░░  5 / 25 rooms  ← currently active
+Pre-Security:       ████████░░░░░░░░░░░░░░░░  5 / 31 rooms  ← currently active
 Cyber Security 101: ░░░░░░░░░░░░░░░░░░░░░░░░  0 rooms
 SOC Level 1:        ░░░░░░░░░░░░░░░░░░░░░░░░  0 rooms
 ```
@@ -48,7 +47,7 @@ SOC Level 1:        ░░░░░░░░░░░░░░░░░░░░
 **Pre-Security** — TryHackMe Learning Path
 Covers the foundational technical knowledge required before diving into offensive or defensive cybersecurity work — networking, Linux, Windows, and how the web works.
 
-`████████░░░░░░░░░░░░░░░░` 5 / 25 rooms completed
+`████████░░░░░░░░░░░░░░░░` 5 / 31 rooms completed
 
 ---
 
@@ -121,22 +120,6 @@ Covers the foundational technical knowledge required before diving into offensiv
 | `nslookup` | `nslookup <domain>` | Query DNS records |
 | `dig` | `dig <domain> <record-type>` | Detailed DNS queries with TTL info |
 
----
-
-## How This Repo is Organized
-
-```
-tryhackme-writeups/
-│
-├── README.md                        ← You are here
-│
-└── rooms/
-    ├── TEMPLATE.md                  ← Blank template for new writeups
-    ├── defensive-security-intro.md
-    ├── careers-in-cyber.md
-    ├── what-is-networking.md
-    ├── offensive-security-intro.md
-    └── dns-in-detail.md
 ```
 
 Each room writeup includes:
@@ -159,19 +142,6 @@ TryHackMe is the foundation of my entire learning plan — the platform I stay o
 | **SOC Level 1** | Month 3–6 | Deep blue team skills, SIEM, log analysis, and IR workflows |
 
 > TryHackMe is the primary platform for Phases 1 and 2. HTB Academy takes over for Phase 3.
-
----
-
-## Broader Learning Roadmap
-
-| Phase | Platform | Focus | Target Certification |
-|-------|----------|-------|----------------------|
-| **1** — Now | TryHackMe + LabEx | Pre-Security + Linux practice | SEC1 |
-| **2** — Month 4–6 | TryHackMe + LabEx + Self-study | SOC Level 1 + Security+ prep | SAL1 + Security+ |
-| **3** — Month 6–10 | HTB Academy | SOC Analyst Path + Sherlocks | CDSA |
-| **4** — Month 10–14 | INE | Incident Responder path | eCIR |
-
-> Network+ content is studied as background material (Professor Messer — free) without sitting the exam, to build networking foundations for Security+.
 
 ---
 
