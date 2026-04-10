@@ -132,5 +132,5 @@ Each room writeup includes:
 ---
 
 ## Connect
-- 🔗 LinkedIn: [linkedin.com/in/esteban-gonzalez-3400ab233](https://www.linkedin.com/in/esteban-gonzalez-3400ab233)
-- 💀 TryHackMe: [tryhackme.com/p/egonzalez.1679](https://tryhackme.com/p/egonzalez.1679)
+- 🔗 LinkedIn: (linkedin.com/in/esteban-gonzalez-3400ab233](https://www.linkedin.com/in/esteban-gonzalez-3400ab233)
+- 💀 TryHackMe: (tryhackme.com/p/egonzalez.1679](https://tryhackme.com/p/egonzalez.1679)
