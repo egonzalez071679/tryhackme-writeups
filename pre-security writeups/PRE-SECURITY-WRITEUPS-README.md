@@ -2,7 +2,6 @@
 
 > Documenting my hands-on learning through the TryHackMe Pre-Security path as part of my career transition from **Project Management** to **IR/DFIR Analyst**.
 
-[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/egonzalez.1679.png)](https://tryhackme.com/p/egonzalez.1679)
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red?style=flat-square)
 ![Path](https://img.shields.io/badge/Path-Pre--Security-blue?style=flat-square)
 ![Progress](https://img.shields.io/badge/Progress-5%2F25%20rooms-orange?style=flat-square)
