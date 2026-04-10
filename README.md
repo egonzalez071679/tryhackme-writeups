@@ -5,10 +5,14 @@ cybersecurity career transition from Project Management
 to IR/DFIR Analyst.
 
 ## About Me
-- **Background:** Project Management
-- **Target Role:** IR/DFIR Analyst
-- **Current Focus:** TryHackMe Pre-Security path → SOC Level 1 → Security+
-- **Certifications Roadmap:** SEC1 → SAL1 → Security+ → CDSA (HTB) → eCIR (INE)
+## My Background & Goal
+ 
+| | |
+|---|---|
+| **Coming from** | Project Management |
+| **Target role** | IR/DFIR Analyst |
+| **Why LabEx** | Linux practice + Security+ hands-on lab reinforcement |
+| **Next step** | TryHackMe SOC Level 1 → Security+ → HTB CDSA → INE eCIR |
 
 # TryHackMe Progress
 
