@@ -2,7 +2,6 @@
 
 > Documenting my hands-on learning through TryHackMe as part of my career transition from **Project Management** to **IR/DFIR Analyst**.
 
-[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/egonzalez.1679.png)](https://tryhackme.com/p/egonzalez.1679)
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Pre--Security%20%7C%20SOC%20Level%201-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
@@ -38,7 +37,7 @@ TryHackMe is the **primary learning platform** for Phase 1 and Phase 2 of my roa
 ## Path Progress
 
 ```
-Pre-Security:       ████████░░░░░░░░░░░░░░░░  5 / 25 rooms  ← currently active
+Pre-Security:       ████████░░░░░░░░░░░░░░░░  5 / 31 rooms  ← currently active
 Cyber Security 101: ░░░░░░░░░░░░░░░░░░░░░░░░  0 rooms
 SOC Level 1:        ░░░░░░░░░░░░░░░░░░░░░░░░  0 rooms
 ```
@@ -48,7 +47,7 @@ SOC Level 1:        ░░░░░░░░░░░░░░░░░░░░
 **Pre-Security** — TryHackMe Learning Path
 Covers the foundational technical knowledge required before diving into offensive or defensive cybersecurity work — networking, Linux, Windows, and how the web works.
 
-`████████░░░░░░░░░░░░░░░░` 5 / 25 rooms completed
+`████████░░░░░░░░░░░░░░░░` 5 / 31 rooms completed
 
 ---
 
