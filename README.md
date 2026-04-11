@@ -37,7 +37,7 @@ TryHackMe is the **primary learning platform** for Phase 1 and Phase 2 of my roa
 ## Path Progress
 
 ```
-Pre-Security:       ████████░░░░░░░░░░░░░░░░  5 / 31 rooms  ← currently active
+Pre-Security:       ██████████░░░░░░░░░░░░░░  7 / 31 rooms  ← currently active
 Cyber Security 101: ░░░░░░░░░░░░░░░░░░░░░░░░  0 rooms
 SOC Level 1:        ░░░░░░░░░░░░░░░░░░░░░░░░  0 rooms
 ```
@@ -47,7 +47,7 @@ SOC Level 1:        ░░░░░░░░░░░░░░░░░░░░
 **Pre-Security** — TryHackMe Learning Path
 Covers the foundational technical knowledge required before diving into offensive or defensive cybersecurity work — networking, Linux, Windows, and how the web works.
 
-`████████░░░░░░░░░░░░░░░░` 5 / 31 rooms completed
+`██████████░░░░░░░░░░░░░░` 7 / 31 rooms completed
 
 ---
 
@@ -60,12 +60,16 @@ Covers the foundational technical knowledge required before diving into offensiv
 | 3 | [What is Networking?](https://tryhackme.com/room/whatisnetworking) | Pre-Security | 🌐 Networking | IP/MAC, Ping, ICMP, Data Flow | [Notes](rooms/what-is-networking.md) |
 | 4 | [Offensive Security Intro](https://tryhackme.com/room/offensivesecurity) | Pre-Security | ⚔️ Red Team | Ethical Hacking, gobuster, Recon | [Notes](rooms/offensive-security-intro.md) |
 | 5 | [DNS in Detail](https://tryhackme.com/room/dnsindetail) | Pre-Security | 🔍 Networking | DNS Records, Resolution, TTL, Spoofing | [Notes](rooms/dns-in-detail.md) |
+| 6 | [Intro to LAN](https://tryhackme.com/room/introtolan) | Pre-Security | 🌐 Networking | LAN Topologies, Switches, Routers, ARP, DHCP | [Notes](rooms/intro-to-lan.md) |
+| 7 | [OSI Model](https://tryhackme.com/room/osimodelzi) | Pre-Security | 🌐 Networking | 7 OSI Layers, Encapsulation, Protocols per Layer | [Notes](rooms/osi-model.md) |
 
 ### Up Next 🔜
 
 #### Pre-Security — Remaining Rooms
 | Room | Category |
 |------|----------|
+| [Packets and Frames](https://tryhackme.com/room/packetsframes) | 🌐 Networking |
+| [Extending Your Network](https://tryhackme.com/room/extendingyournetwork) | 🌐 Networking |
 | [HTTP in Detail](https://tryhackme.com/room/httpindetail) | 🌐 Web |
 | [How Websites Work](https://tryhackme.com/room/howwebsiteswork) | 🌐 Web |
 | [Putting It All Together](https://tryhackme.com/room/puttingitalltogether) | 🌐 Web |
@@ -92,6 +96,12 @@ Covers the foundational technical knowledge required before diving into offensiv
 - DNS — record types (A, AAAA, CNAME, MX, TXT), full resolution flow, TTL and caching
 - ICMP / ping — connectivity testing and what it looks like in logs
 - How data flows between devices through routers and switches
+- LAN topologies — Star, Bus, Ring; switches vs routers; ARP and DHCP
+- ARP — resolves IP to MAC addresses; ARP spoofing is a key MitM attack vector
+- DHCP — automates IP assignment; rogue DHCP servers are a real attack technique
+- Subnetting — dividing networks for security, performance, and management
+- OSI Model — all 7 layers, encapsulation/de-encapsulation, protocols per layer
+- Layer-to-attack mapping — Layer 7 (web attacks), Layer 4 (SYN floods), Layer 2 (ARP spoofing)
 
 ### 🛡 Defensive Security
 - SOC operations — 24/7 monitoring, alert triage, escalation workflows
@@ -119,6 +129,8 @@ Covers the foundational technical knowledge required before diving into offensiv
 | `gobuster` | `gobuster dir -u <url> -w <wordlist>` | Brute-force hidden web directories |
 | `nslookup` | `nslookup <domain>` | Query DNS records |
 | `dig` | `dig <domain> <record-type>` | Detailed DNS queries with TTL info |
+| `arp` | `arp -a` | View local ARP cache — IP to MAC mappings |
+| `wireshark` | GUI | Capture and inspect packets at every OSI layer |
 
 ---
 
@@ -135,7 +147,9 @@ tryhackme-writeups/
     ├── careers-in-cyber.md
     ├── what-is-networking.md
     ├── offensive-security-intro.md
-    └── dns-in-detail.md
+    ├── dns-in-detail.md
+    ├── intro-to-lan.md
+    └── osi-model.md
 ```
 
 Each room writeup includes:
