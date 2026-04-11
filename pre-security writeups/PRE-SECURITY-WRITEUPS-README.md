@@ -4,14 +4,14 @@
 
 ![Platform](https://img.shields.io/badge/Platform-TryHackMe-red?style=flat-square)
 ![Path](https://img.shields.io/badge/Path-Pre--Security-blue?style=flat-square)
-![Progress](https://img.shields.io/badge/Progress-5%2F25%20rooms-orange?style=flat-square)
+![Progress](https://img.shields.io/badge/Progress-7%2F25%20rooms-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
 
 ---
 
 ## What is the Pre-Security Path?
 
-The TryHackMe Pre-Security path covers the foundational technical knowledge required before diving into offensive or defensive cybersecurity work. It runs entirely in the browser — no VPN or local setup needed.
+The TryHackMe Pre-Security path covers the foundational technical knowledge required before diving into offensive or defensive cybersecurity work. It runs entirely in the browser.
 
 It covers:
 
@@ -38,7 +38,7 @@ This path is the prerequisite to the SOC Level 1 and Jr Penetration Tester paths
 ## Path Progress
 
 ```
-Pre-Security:  ████████░░░░░░░░░░░░░░░░  5 / 25 rooms completed  ← currently active
+Pre-Security:  ██████████░░░░░░░░░░░░░░  7 / 25 rooms completed  ← currently active
 ```
 
 ### Currently Working On 🔥
@@ -46,7 +46,7 @@ Pre-Security:  ████████░░░░░░░░░░░░░�
 **Pre-Security** — TryHackMe Learning Path
 Covers the foundational technical knowledge required for all cybersecurity work — networking, how the web works, Linux, and Windows fundamentals.
 
-`████████░░░░░░░░░░░░░░░░` 5 / 25 rooms completed
+`██████████░░░░░░░░░░░░░░` 7 / 25 rooms completed
 
 ---
 
@@ -59,6 +59,8 @@ Covers the foundational technical knowledge required for all cybersecurity work 
 | 3 | [What is Networking?](https://tryhackme.com/room/whatisnetworking) | 🌐 Networking | IP/MAC, Ping, ICMP, Data Flow | [Notes](rooms/what-is-networking.md) |
 | 4 | [Offensive Security Intro](https://tryhackme.com/room/offensivesecurity) | ⚔️ Red Team | Ethical Hacking, gobuster, Recon | [Notes](rooms/offensive-security-intro.md) |
 | 5 | [DNS in Detail](https://tryhackme.com/room/dnsindetail) | 🔍 Networking | DNS Records, Resolution, TTL, Spoofing | [Notes](rooms/dns-in-detail.md) |
+| 6 | [Intro to LAN](https://tryhackme.com/room/introtolan) | 🌐 Networking | LAN Topologies, Switches, Routers, ARP, DHCP | [Notes](rooms/intro-to-lan.md) |
+| 7 | [OSI Model](https://tryhackme.com/room/osimodelzi) | 🌐 Networking | 7 OSI Layers, Encapsulation, Protocols per Layer | [Notes](rooms/osi-model.md) |
 
 ### Up Next 🔜
 
@@ -93,6 +95,8 @@ Covers the foundational technical knowledge required for all cybersecurity work 
 - DNS — record types (A, AAAA, CNAME, MX, TXT), full resolution flow, TTL and caching
 - ICMP / ping — connectivity testing and what it looks like in logs
 - How data flows between devices through routers and switches
+- LAN topologies — Star, Bus, Ring; switches vs routers; ARP and DHCP
+- OSI Model — all 7 layers, encapsulation/de-encapsulation, protocols per layer
 
 ### 🛡 Defensive Security
 - SOC operations — 24/7 monitoring, alert triage, escalation workflows
@@ -131,12 +135,13 @@ tryhackme-pre-security/
 ├── README.md                        ← You are here
 │
 └── rooms/
-    ├── TEMPLATE.md                  ← Blank template for new writeups
     ├── defensive-security-intro.md
     ├── careers-in-cyber.md
     ├── what-is-networking.md
     ├── offensive-security-intro.md
-    └── dns-in-detail.md
+    ├── dns-in-detail.md
+    ├── intro-to-lan.md
+    └── osi-model.md
 ```
 
 Each room writeup includes:
