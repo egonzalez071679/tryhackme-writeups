@@ -141,8 +141,7 @@ tryhackme-writeups/
 │
 ├── README.md                        ← You are here
 │
-└── rooms/
-    ├── TEMPLATE.md                  ← Blank template for new writeups
+└── pre-security writeups/
     ├── defensive-security-intro.md
     ├── careers-in-cyber.md
     ├── what-is-networking.md
