@@ -10,13 +10,21 @@
 
 ## Summary
 
-Foundational networking concepts essential for all cybersecurity work. Covers what networks are, how devices communicate, IP and MAC addressing, and how data moves — the vocabulary every IR/DFIR analyst needs to read logs and packet captures.
+Foundational networking concepts essential for all cybersecurity work. Covers what networks are, how devices communicate, IP and MAC addressing, how data moves, and why these concepts matter in security monitoring, packet analysis, and incident response. The vocabulary every IR/DFIR analyst needs to read logs and packet captures.
 
 ---
 
 ## Key Concepts Learned
 
-- **Network** — Any group of connected devices that can communicate; the internet is the world's largest network of networks
+A network is a group of connected devices that can communicate and share resources.
+Examples:
+Home network
+Corporate network
+The internet (largest network of networks)
+
+Security relevance: Every cyber defense activity relies on understanding network communications.
+Logs, alerts, packet captures, and SIEM investigations all revolve around network behavior.
+
 - **IP address** — A logical address assigned to a device (e.g. `192.168.1.1`); used to route data to the correct destination
 - **MAC address** — A hardware-level address burned into a network card; unique per device; used for communication within a local network
 - **Ping / ICMP** — Sends a packet to a target and waits for a reply to test reachability and measure latency
