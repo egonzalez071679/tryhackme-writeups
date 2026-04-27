@@ -17,10 +17,7 @@ Foundational networking concepts essential for all cybersecurity work. Covers wh
 ## Key Concepts Learned
 
 A network is a group of connected devices that can communicate and share resources.
-Examples:
-Home network
-Corporate network
-The internet (largest network of networks)
+Examples: Home network - Corporate network - The internet (largest network of networks)
 
 Security relevance: Every cyber defense activity relies on understanding network communications.
 Logs, alerts, packet captures, and SIEM investigations all revolve around network behavior.
@@ -45,8 +42,11 @@ The internet is made up of many interconnected networks. Data travels across the
 ### Task 3 — Identifying Devices on a Network
 
 Two main identifiers:
-- **IP address** — logical, can change (dynamic) or stay fixed (static). Format: `xxx.xxx.xxx.xxx`
-- **MAC address** — physical, tied to the hardware. Format: `xx:xx:xx:xx:xx:xx` (6 pairs of hex)
+- **IP address** — An IP (Internet Protocol) address identifies a host on a network. Logical, can change (dynamic) or stay fixed (static). Format: `192.168.1.10` Each octet ranges: 0–255
+- **MAC address** — MAC (Media Access Control) address:
+Hardware-level identifier
+Assigned to NIC at manufacture
+Unique physical addressphysical, tied to the hardware. Format: `00:1A:2B:3C:4D:5E` (6 pairs of hex)
 
 ```bash
 # Check your IP address
@@ -82,6 +82,7 @@ ping -c 4 192.168.1.1  # Send exactly 4 packets
 - Every DFIR investigation starts with network logs — understanding IP/MAC addressing is non-negotiable
 - IP addresses identify devices logically; MAC addresses identify them at the hardware layer — both appear in security logs
 - Ping is the simplest recon/connectivity tool; ICMP traffic can also be used maliciously (ping sweeps, ICMP tunneling)
+- MAC addresses can be spoofed. Spoofing: Device pretends to have another device’s MAC address. Security risk: 1- Can bypass weak trust controls, 2- Can impersonate trusted systems.
 - This room is the foundation for DNS, HTTP, and packet analysis rooms to come
 
 ---
