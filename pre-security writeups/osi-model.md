@@ -65,7 +65,7 @@ Provides end-to-end communication between processes. Two main protocols:
 | Protocol | Type | Use case |
 |----------|------|----------|
 | **TCP** | Connection-oriented | Reliable delivery — web browsing, file transfer, email |
-| **UDP** | Connectionless | Fast, no guarantee — video streaming, DNS, VoIP |
+| **UDP** | Connectionless-stateless | Fast, no guarantee — video streaming, DNS, VoIP |
 
 TCP uses a **3-way handshake** to establish connections: SYN → SYN-ACK → ACK
 
