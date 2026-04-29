@@ -35,7 +35,7 @@ Comprehensive walkthrough of the OSI (Open Systems Interconnection) model — th
 | 5 | **Session** | Data | NetBIOS, RPC | Establishes, manages, and terminates sessions between applications |
 | 4 | **Transport** | Segment | TCP, UDP | End-to-end communication, flow control, error checking |
 | 3 | **Network** | Packet | IP, ICMP, ARP | Logical addressing (IP) and routing between networks |
-| 2 | **Data Link** | Frame | Ethernet, MAC, ARP | Physical addressing (MAC) and error detection within a LAN |
+| 2 | **Data Link** | Frame | Ethernet, MAC, ARP | Physical addressing (MAC) and error detection within a LAN. Cobines packets into bytes and bytes into frames |
 | 1 | **Physical** | Bits | Ethernet cable, Wi-Fi, fiber | Transmits raw binary bits over a physical medium |
 
 **Memory aid:** "**P**lease **D**o **N**ot **T**hrow **S**ausage **P**izza **A**way" (Physical → Data Link → Network → Transport → Session → Presentation → Application)
