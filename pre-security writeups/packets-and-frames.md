@@ -10,7 +10,7 @@
 
 ## Summary
 
-Deep dive into how data actually moves across networks at the packet and frame level — what packets and frames are at different OSI layers, how TCP and UDP differ, how the three-way handshake works, and why ports and protocol headers are foundational for nearly every defender alert.
+Deep dive into how data actually moves across networks at the packet and frame level — what packets and frames are at different OSI layers, how TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) differ, how the three-way handshake works, and why ports and protocol headers are foundational for nearly every defender alert.
 
 ---
 
