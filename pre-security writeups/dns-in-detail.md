@@ -31,6 +31,9 @@ Deep dive into the Domain Name System — how it translates domain names to IP a
 DNS converts domain names to IP addresses. Without DNS, you'd need to remember the IP address of every site you visit.
 
 ### Task 2 — Domain Hierarchy
+TLD (Top-Level Domain) There are two types of TLD, gTLD (Generic Top Level) and ccTLD (Country Code Top Level Domain). A ccTLD was used for geographical purposes.
+Second-Level Domain, limited to 63 characters + can only use a-z 0-9 and hyphens.
+Subdomain, ength must be kept to 253 characters or less.
 
 ```
 .                          ← Root
