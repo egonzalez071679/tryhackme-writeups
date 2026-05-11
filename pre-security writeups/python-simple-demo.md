@@ -1,6 +1,6 @@
 # Python: Simple Demo — TryHackMe
 
-> **Path:** Software Basics module
+> **Path:**Software Basics module
 > **Difficulty:** Easy
 > **Category:** Programming Fundamentals
 > **Completed:** 2026-05-05
