@@ -1,4 +1,4 @@
-# Operating System Security — TryHackMe
+# Operating Systems Security — TryHackMe
 
 > **Path:** Pre-Security (SEC0) — How Computers Work / Operating Systems  
 > **Difficulty:** Easy  
