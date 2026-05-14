@@ -1,9 +1,9 @@
 # Extending Your Network — TryHackMe
 
-> **Path:** Pre-Security (SEC0) — Network Fundamentals
-> **Difficulty:** Easy
-> **Category:** Networking / Network Architecture
-> **Completed:** 2026-05-12
+> **Path:** Pre-Security (SEC0) — Network Fundamentals  
+> **Difficulty:** Easy  
+> **Category:** Networking / Network Architecture  
+> **Completed:** 2026-05-12  
 > **Room Link:** https://tryhackme.com/room/extendingyournetwork
 
 ---
