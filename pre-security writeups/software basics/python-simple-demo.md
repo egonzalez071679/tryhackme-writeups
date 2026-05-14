@@ -1,9 +1,9 @@
 # Python: Simple Demo — TryHackMe
 
-> **Path:**Software Basics module
-> **Difficulty:** Easy
-> **Category:** Programming Fundamentals
-> **Completed:** 2026-05-05
+> **Path:** Software Basics module  
+> **Difficulty:** Easy  
+> **Category:** Programming Fundamentals  
+> **Completed:** 2026-05-05  
 > **Room Link:** https://tryhackme.com/room/pythonsimpledemo
 
 ---
