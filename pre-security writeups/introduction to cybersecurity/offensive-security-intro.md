@@ -35,18 +35,17 @@ Offensive security involves breaking into systems, exploiting bugs, and finding 
 Practical exercise: used `dirb` to discover a hidden admin page on a fake banking website.
 
 ```bash
-# Basic gobuster directory scan
-gobuster dir -u http://fakebank.thm -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+# dirb http://fakebank.thm
 
 # What the flags mean:
 # ---- Scanning URL: http://fakebank.thm/ ----
-# [target URL](http://fakebank.thm/bank-transfer (CODE:200|SIZE:4663))
-# [-w         = wordlist to use](http://fakebank.thm/images (CODE:301|SIZE:179))
+# (http://fakebank.thm/bank-transfer (CODE:200|SIZE:4663))
+# (http://fakebank.thm/images (CODE:301|SIZE:179))
 ```
 
 **Result:** Found `/bank-transfer` hidden admin page that was not linked anywhere on the site.
 
-**Key insight:** Developers often leave admin pages, backup files, or config pages accessible but unlisted. Tools like gobuster find them by trying common names from a wordlist.
+**Key insight:** Developers often leave admin pages, backup files, or config pages accessible but unlisted. Tools like dirb find them by trying common names from a wordlist.
 
 ### Task 3 — Careers in Offensive Security
 
@@ -58,7 +57,7 @@ Offensive roles include penetration tester, red teamer, and bug bounty hunter. E
 
 | Tool | Command | Purpose |
 |------|---------|---------|
-| `gobuster` | `gobuster dir -u <url> -w <wordlist>` | Directory/file enumeration on web servers |
+| `dirb` | `dirb dirb http://fakebank.thm>` | Directory/file enumeration on web servers |
 
 ---
 
