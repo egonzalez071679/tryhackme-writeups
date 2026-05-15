@@ -74,4 +74,4 @@ Offensive roles include penetration tester, red teamer, and bug bounty hunter. E
 
 - [Official TryHackMe Room](https://tryhackme.com/room/offensivesecurity)
 - [dirb tool documentation](https://www.kali.org/tools/dirb/)
-- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+- [OWASP Brute Force Attack](https://owasp.org/www-community/attacks/Brute_force_attack)
