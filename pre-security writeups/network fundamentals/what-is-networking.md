@@ -17,7 +17,7 @@ Foundational networking concepts essential for all cybersecurity work. Covers wh
 ## Key Concepts Learned
 
 A network is a group of connected devices that can communicate and share resources.
-Examples: Home network - Corporate network - The internet (largest network of networks)
+Examples: Home network - Corporate network - The internet (one giant network that consists of many, many small networks within itself.)
 
 Security relevance: Every cyber defense activity relies on understanding network communications.
 Logs, alerts, packet captures, and SIEM investigations all revolve around network behavior.
