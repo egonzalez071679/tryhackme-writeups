@@ -10,7 +10,7 @@
 
 ## Summary
 
-First hands-on experience with the red team / attacker mindset. Covers what offensive security means, introduces ethical hacking, and walks through a practical web application hacking exercise using `gobuster` to find hidden pages.
+First hands-on experience with the red team / attacker mindset. Covers what offensive security means, introduces ethical hacking, and walks through a practical web application hacking exercise using `dirb` to find hidden pages.
 
 ---
 
@@ -19,7 +19,7 @@ First hands-on experience with the red team / attacker mindset. Covers what offe
 - **Offensive security mindset** — Thinking like an attacker to find weaknesses before malicious actors do
 - **Ethical hacking** — Authorized and legal hacking that operates within defined rules of engagement
 - **Web application hacking** — Finding and exploiting vulnerabilities in websites — the most common attack surface in modern organizations
-- **gobuster** — A tool that brute-forces hidden directories and files on a web server using a wordlist
+- **dirb** — a command-line web content scanner designed for security auditing and penetration testing. It is used to discover hidden files, directories, and pages on a web server by launching a dictionary-based, brute-force attack.
 - **Reconnaissance** — The first phase of hacking; gathering information about a target before attempting exploitation
 
 ---
@@ -32,16 +32,16 @@ Offensive security involves breaking into systems, exploiting bugs, and finding 
 
 ### Task 2 — Hacking your First Machine
 
-Practical exercise: used `gobuster` to discover a hidden admin page on a fake banking website.
+Practical exercise: used `dirb` to discover a hidden admin page on a fake banking website.
 
 ```bash
 # Basic gobuster directory scan
 gobuster dir -u http://fakebank.thm -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
 # What the flags mean:
-# dir        = directory/file brute-force mode
-# -u         = target URL
-# -w         = wordlist to use
+# ---- Scanning URL: http://fakebank.thm/ ----
+# [target URL](http://fakebank.thm/bank-transfer (CODE:200|SIZE:4663))
+# [-w         = wordlist to use](http://fakebank.thm/images (CODE:301|SIZE:179))
 ```
 
 **Result:** Found `/bank-transfer` hidden admin page that was not linked anywhere on the site.
