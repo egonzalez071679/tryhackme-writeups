@@ -57,14 +57,14 @@ Offensive roles include penetration tester, red teamer, and bug bounty hunter. E
 
 | Tool | Command | Purpose |
 |------|---------|---------|
-| `dirb` | `dirb dirb http://fakebank.thm>` | Directory/file enumeration on web servers |
+| `DIRB` | `dirb http://fakebank.thm>` | Directory/file enumeration on web servers |
 
 ---
 
 ## Takeaways
 
 - Understanding how attackers find hidden pages helps me write better detection rules as a defender
-- `gobuster` scans generate distinctive HTTP traffic patterns — recognizing this in logs is a key SOC/DFIR skill
+- `dirb` scans generate distinctive HTTP traffic patterns — recognizing this in logs is a key SOC/DFIR skill
 - The attacker methodology (recon → scan → exploit) maps to the Cyber Kill Chain I'll study in SOC Level 1
 - Offensive knowledge makes you a sharper blue teamer — you know what to look for because you know how attacks work
 
@@ -73,5 +73,5 @@ Offensive roles include penetration tester, red teamer, and bug bounty hunter. E
 ## References
 
 - [Official TryHackMe Room](https://tryhackme.com/room/offensivesecurity)
-- [gobuster GitHub](https://github.com/OJ/gobuster)
+- [dirb tool documentation](https://www.kali.org/tools/dirb/)
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
