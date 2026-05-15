@@ -16,7 +16,7 @@ Introduction to the blue team side of cybersecurity. Covers what defensive secur
 
 ## Key Concepts Learned
 
-- **Defensive security** — Protecting systems by detecting, responding to, and recovering from threats; the opposite of offensive hacking
+- **Defensive security** — Protecting systems by detecting, responding to, and recovering from threats; the opposite of offensive hacking. Also known as Blue Teaming
 - **Security Operations Center (SOC)** — A team that monitors an organization 24/7, triages alerts, investigates incidents, and escalates serious events
 - **Threat intelligence** — Knowing your adversaries' tactics, tools, and motives so you can defend proactively rather than just react
 - **DFIR (Digital Forensics & Incident Response)** — When a breach happens, DFIR teams investigate what happened, preserve evidence, and contain the damage
